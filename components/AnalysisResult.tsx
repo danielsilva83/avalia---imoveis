@@ -15,7 +15,7 @@ const AnalysisResult: React.FC<AnalysisResultProps> = ({ data, onReset }) => {
     const text = `*AvalIA AI - Análise de Mercado* 📊\n\n` +
       `*Análise:*\n${data.priceAnalysis}\n\n` +
       `*Recomendação para Conversa:*\n"${data.salesScripts[0]}"\n\n` +
-      `_Gerado por Inteligência Artificial_`;
+      `_Gerado por AvaliAI Inteligência de mercado_`;
     return encodeURIComponent(text);
   };
 

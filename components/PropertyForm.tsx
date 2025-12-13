@@ -117,12 +117,12 @@ const PropertyForm: React.FC<PropertyFormProps> = ({ onSubmit, isLoading }) => {
 
         {/* Localização */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">rua ou Bairro e Cidade</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Rua ou Bairro, Cidade, UF</label>
           <div className="relative">
             <input
               type="text"
               name="location"
-              placeholder="Ex: rua ou bairro, cidade"
+              placeholder="Ex: rua, bairro, cidade, UF)"
               required
               value={formData.location}
               onChange={handleChange}
